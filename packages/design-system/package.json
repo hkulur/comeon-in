@@ -1,0 +1,68 @@
+{
+  "name": "@comeonin/design-system",
+  "version": "1.0.0",
+  "module": "lib",
+  "files": [
+    "lib/"
+  ],
+  "scripts": {
+    "lint": "eslint --report-unused-disable-directives .",
+    "build": "yarn build:lib",
+    "build:lib": "yarn clean && yarn build:babel",
+    "build:babel": "babel --config-file ./build.babelrc src -d lib",
+    "clean": "rimraf lib",
+    "storybook": "start-storybook -s ./static -p 6006",
+    "test": "jest"
+  },
+  "dependencies": {
+    "baseui": "^9.60.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "styletron-engine-atomic": "^1.4.6",
+    "styletron-react": "^5.2.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.8.6",
+    "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@babel/preset-env": "^7.8.6",
+    "@babel/preset-react": "^7.8.3",
+    "@comeonin/eslint-config": "*",
+    "@storybook/addon-actions": "^5.3.14",
+    "@storybook/addon-console": "^1.2.1",
+    "@storybook/addon-docs": "^5.3.14",
+    "@storybook/addon-knobs": "^5.3.12",
+    "@storybook/addon-links": "^5.3.14",
+    "@storybook/addon-storyshots": "^5.3.14",
+    "@storybook/addons": "^5.3.14",
+    "@storybook/react": "^5.3.14",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-require-context-hook": "^1.0.0",
+    "babel-plugin-transform-assets-import-to-string": "^1.2.0",
+    "jest": "^25.1.0",
+    "react-test-renderer": "^16.13.0",
+    "rimraf": "^3.0.2",
+    "webpack": "^4.42.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageDirectory": "coverage",
+    "coveragePathIgnorePatterns": [
+      "/.storybook/",
+      "/lib/",
+      "/node_modules/"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": -1
+      }
+    },
+    "setupFiles": [
+      "<rootDir>/.jest/register-context.js"
+    ]
+  }
+}

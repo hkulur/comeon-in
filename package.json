@@ -7,7 +7,9 @@
     ],
     "nohoist": []
   },
-  "scripts": {},
+  "scripts": {
+    "lint": "lerna run lint"
+  },
   "engines": {
     "node": "12.16.0",
     "yarn": "^1.19.2"
