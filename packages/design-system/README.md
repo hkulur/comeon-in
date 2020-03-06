@@ -27,3 +27,9 @@ yarn storybook
 ```bash
 yarn test
 ```
+
+## Linting
+
+```bash
+yarn lint
+```
