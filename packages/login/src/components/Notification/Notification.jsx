@@ -11,6 +11,17 @@ const NotificationContainer = styled('div', {
   transform: 'translate(-50%, 0)'
 })
 
+const overrides = {
+  Body: {
+    style: ({ $theme }) => {
+      return {
+        outline: `${$theme.colors.negative600} solid`,
+        backgroundColor: $theme.colors.negative600,
+        color: '#FFF'
+      };
+    }
+  }
+}
 const Notification = () => {
   const error = useSelector(state => state.notification)
   const dispatch = useDispatch()
@@ -21,8 +32,9 @@ const Notification = () => {
       { error
         ? (
           <DesignNotification
-            kind={KIND.negative}
             closeable
+            overrides={overrides}
+            kind={KIND.negative}
             onClose={onCloseHandler}
             autoHideDuration={4000}
           >

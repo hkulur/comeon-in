@@ -100,7 +100,9 @@ const playerAttributes = (req) => {
       showTermsAndCondition: true,
       showEmailPhoneScreen: false
     }
-  } else if (acceptTerms) {
+  }
+  
+  if (acceptTerms) {
     overrides = {
       showTermsAndCondition: false,
       showEmailPhoneScreen: false,
@@ -144,8 +146,9 @@ server.use((req, res, next) => {
     } else if (req.path === "/signup") {
       return authenticate(req, res, true);
     } else if (req.path === "/logout") {
-      var username = req.body.username;
-      if (username in players) {
+      const user = players.filter(player => player.id === req.body.id)[0]
+
+      if (user) {
         res.status(200).json({
           status: "SUCCESS"
         });

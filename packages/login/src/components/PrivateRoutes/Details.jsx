@@ -7,9 +7,18 @@ import { BlockButton } from '@comeonin/design-system/lib/button'
 import { Checkbox } from '@comeonin/design-system/lib/checkbox'
 import { H4 } from '@comeonin/design-system/lib/typography'
 
-import { Root, Center, ButtonWrapper, FlexWrapper, FlexItem1, FlexItem2 } from '../PublicRoutes/styled-components'
+import {
+  Root,
+  Center,
+  ButtonWrapper,
+  FlexWrapper,
+  FlexItem1,
+  FlexItem2,
+  Header
+} from 'components/StyledComponents'
 import { detailsValidate } from 'helpers'
 import { update } from 'redux/actions'
+import UserIcon from 'components/Icons/User'
 
 const Details = () => {
   const user = useSelector(state => state.user) || {}
@@ -17,10 +26,10 @@ const Details = () => {
 
   const formik = useFormik({
     initialValues: {
-      email: user.email,
-      countrycode: user.phone && user.phone.split('-')[0],
-      phonenumber: user.phone && user.phone.split('-')[1],
-      rejectMarketing: !user.acceptMarketing
+      email: user.email || '',
+      countrycode: user.phone ? user.phone.split('-')[0] : '',
+      phonenumber: user.phone ? user.phone.split('-')[1] : '',
+      rejectMarketing: (user.acceptMarketing !== undefined && !user.acceptMarketing) || false
     },
     validate: detailsValidate,
     onSubmit: values => {
@@ -37,10 +46,14 @@ const Details = () => {
   })
 
   const { errors, handleChange, handleSubmit, values, touched } = formik
+ 
   return (
     <Root>
       <Center>
-        <H4 marginBottom='scale700'>Share your Details</H4>
+        <Header>
+          <UserIcon size={64} />
+          <H4>Share your details</H4>
+        </Header>
         <form onSubmit={handleSubmit} noValidate>
           <FormControl caption={(touched.email && errors.email) ? errors.email : ''} label='Email' error={touched.email && !!errors.email}>
             <Input

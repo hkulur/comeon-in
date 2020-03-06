@@ -10,11 +10,9 @@ const detailsValidate = (values) => {
 
   if (!values.countrycode) {
     errors.countrycode = 'Mandatory'
-  } else if (!/^[0-9]{1,2}$/g.test(values.countrycode)) {
-    errors.countrycode = 'Invalid Code'
   }
 
-  if (!values.phonenumber.trim()) {
+  if (!values.phonenumber || !values.phonenumber.trim()) {
     errors.phonenumber = 'Mandatory'
   } else if (!/^[0-9]{7,10}$/g.test(values.phonenumber)) {
     errors.phonenumber = 'Invalid Number'

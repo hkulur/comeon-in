@@ -4,18 +4,22 @@ import { Input } from '@comeonin/design-system/lib/input'
 import { FormControl } from '@comeonin/design-system/lib/form-control'
 import { BlockButton } from '@comeonin/design-system/lib/button'
 import { H3 } from '@comeonin/design-system/lib/typography'
-import { Root, Center, ButtonWrapper, FooterLink, StyledLink } from './styled-components'
+import { Root, Center, ButtonWrapper, FooterLink, StyledLink, Brand } from 'components/StyledComponents'
 import { loginRegistrationValidate } from 'helpers'
+import Logo from 'components/Icons/Logo'
+import { useDispatch } from 'react-redux'
+import { signup } from 'redux/actions'
 
 const Registration = () => {
+  const dispatch = useDispatch()
   const formik = useFormik({
     initialValues: {
       username: '',
       password: ''
     },
-    loginRegistrationValidate,
+    validate: loginRegistrationValidate,
     onSubmit: values => {
-     console.log(values)
+     dispatch(signup(values))
     },
   })
 
@@ -33,7 +37,7 @@ const Registration = () => {
             <Input
               id='username'
               name='username'
-              value={values.firstname}
+              value={values.username}
               onChange={handleChange}
             />
           </FormControl>
