@@ -1,10 +1,10 @@
 import {createTheme, lightThemePrimitives} from 'baseui'
 
-const primitives = {
+const DesignThemePrimitive = {
   ...lightThemePrimitives,
   primaryFontFamily: 'Roboto'
 }
 
-const DesignTheme = createTheme(primitives)
+const DesignTheme = createTheme(DesignThemePrimitive)
 
-export { DesignTheme }
+export { DesignTheme, DesignThemePrimitive } 

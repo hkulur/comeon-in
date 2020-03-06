@@ -1,5 +1,562 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Storyshots Design System|Buttons/Block Button Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Block Button With Icons 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="{
+        display: flex,
+        marginRight: 12px
+}"
+          >
+            <label>
+               &lt; 
+            </label>
+          </div>
+          Back
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Next
+          <div
+            className="{
+        display: flex,
+        marginLeft: 12px
+}"
+          >
+            <label>
+               &gt; 
+            </label>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Block Button With Text 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Primary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: #EEEEEE,
+        :hover: {
+                backgroundColor: #E2E2E2
+        },
+        :active: {
+                backgroundColor: #CBCBCB
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Secondary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: transparent,
+        :hover: {
+                backgroundColor: #F6F6F6
+        },
+        :active: {
+                backgroundColor: #EEEEEE
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Tertiary
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
 exports[`Storyshots Design System|Buttons/Button Disabled 1`] = `
 Array [
   <div
