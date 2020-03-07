@@ -1,0 +1,19 @@
+{
+  "name": "comeon-frontend-assignment",
+  "version": "1.0.0",
+  "description": "Please note that this is not a comprehensive exercise and you may do it as per your convenience. Please feel free to make any assumptions however please mention them somewhere either in the code or in a README.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/comeon-stockholm/comeon-in.git"
+  },
+  "author": "Comeon Group",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.16.1"
+  }
+}

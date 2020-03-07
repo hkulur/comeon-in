@@ -1,0 +1,16 @@
+{
+  "env": {
+    "test": {
+      "presets": ["@babel/preset-env", "@babel/preset-react"],
+      "plugins": [
+        "require-context-hook",
+        [
+          "transform-assets-import-to-string",
+          {
+            "baseDir": "/.storybook"
+          }
+        ]
+      ]
+    }
+  }
+}

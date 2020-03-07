@@ -1,0 +1,4 @@
+{
+  "extends": ["./recommended", "./node"],
+  "ignorePatterns": ["/node_modules/"],
+}

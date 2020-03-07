@@ -1,0 +1,3512 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Design System|Buttons/Block Button Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Block Button With Icons 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="{
+        display: flex,
+        marginRight: 12px
+}"
+          >
+            <label>
+               &lt; 
+            </label>
+          </div>
+          Back
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Next
+          <div
+            className="{
+        display: flex,
+        marginLeft: 12px
+}"
+          >
+            <label>
+               &gt; 
+            </label>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Block Button With Text 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Primary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: #EEEEEE,
+        :hover: {
+                backgroundColor: #E2E2E2
+        },
+        :active: {
+                backgroundColor: #CBCBCB
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Secondary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: transparent,
+        :hover: {
+                backgroundColor: #F6F6F6
+        },
+        :active: {
+                backgroundColor: #EEEEEE
+        },
+        width: 100%
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Tertiary
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Button Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px
+}"
+          data-baseweb="button"
+          disabled={true}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Button With Icons 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          <div
+            className="{
+        display: flex,
+        marginRight: 12px
+}"
+          >
+            <label>
+               &lt; 
+            </label>
+          </div>
+          Back
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Next
+          <div
+            className="{
+        display: flex,
+        marginLeft: 12px
+}"
+          >
+            <label>
+               &gt; 
+            </label>
+          </div>
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Buttons/Button With Text 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Default
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #FFFFFF,
+        backgroundColor: #000000,
+        :hover: {
+                backgroundColor: #333333
+        },
+        :active: {
+                backgroundColor: #545454
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Primary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: #EEEEEE,
+        :hover: {
+                backgroundColor: #E2E2E2
+        },
+        :active: {
+                backgroundColor: #CBCBCB
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Secondary
+        </button>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <button
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: transparent,
+        :hover: {
+                backgroundColor: #F6F6F6
+        },
+        :active: {
+                backgroundColor: #EEEEEE
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+        >
+          Tertiary
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Checkbox Checkbox 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: pointer,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={false}
+        aria-invalid={null}
+        checked={false}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: #757575,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: null,
+        backgroundColor: #FFFFFF,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={false}
+        aria-invalid={null}
+        aria-required={null}
+        checked={false}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #000000,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Unchecked
+      </div>
+    </label>
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: pointer,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={true}
+        aria-invalid={null}
+        checked={true}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: transparent,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: url('data:image/svg+xml,%0A%20%20%20%20%3Csvg%20width%3D%2217%22%20height%3D%2213%22%20viewBox%3D%220%200%2017%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6.50002%2012.6L0.400024%206.60002L2.60002%204.40002L6.50002%208.40002L13.9%200.900024L16.1%203.10002L6.50002%2012.6Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20');,
+        backgroundColor: #000000,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={true}
+        aria-invalid={null}
+        aria-required={null}
+        checked={true}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #000000,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Checked
+      </div>
+    </label>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Checkbox Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: not-allowed,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={false}
+        aria-invalid={null}
+        checked={false}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: #AFAFAF,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: null,
+        backgroundColor: #FFFFFF,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={false}
+        aria-invalid={null}
+        aria-required={null}
+        checked={false}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #545454,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Disabled Unchecked
+      </div>
+    </label>
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: not-allowed,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={true}
+        aria-invalid={null}
+        checked={true}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: #AFAFAF,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: url('data:image/svg+xml,%0A%20%20%20%20%3Csvg%20width%3D%2217%22%20height%3D%2213%22%20viewBox%3D%220%200%2017%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6.50002%2012.6L0.400024%206.60002L2.60002%204.40002L6.50002%208.40002L13.9%200.900024L16.1%203.10002L6.50002%2012.6Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20');,
+        backgroundColor: #AFAFAF,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={true}
+        aria-invalid={null}
+        aria-required={null}
+        checked={true}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={true}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #545454,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Disabled Checked
+      </div>
+    </label>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Checkbox Error 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: pointer,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={false}
+        aria-invalid={true}
+        checked={false}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: #D44333,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: null,
+        backgroundColor: #FBEFEE,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={false}
+        aria-invalid={true}
+        aria-required={null}
+        checked={false}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #000000,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Error Unchecked
+      </div>
+    </label>
+    <label
+      className="{
+        flexDirection: row,
+        display: flex,
+        alignItems: flex-start,
+        cursor: pointer,
+        userSelect: none
+}"
+      data-baseweb="checkbox"
+      onMouseDown={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      title={null}
+    >
+      <span
+        aria-checked={true}
+        aria-invalid={true}
+        checked={true}
+        className="{
+        flex: 0 0 auto,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        transitionProperty: background-image, border-color, background-color,
+        width: 20px,
+        height: 20px,
+        left: 4px,
+        top: 4px,
+        boxSizing: border-box,
+        borderStyle: solid,
+        borderWidth: 3px,
+        borderColor: transparent,
+        borderTopLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        outline: none,
+        display: inline-block,
+        verticalAlign: middle,
+        backgroundImage: url('data:image/svg+xml,%0A%20%20%20%20%3Csvg%20width%3D%2217%22%20height%3D%2213%22%20viewBox%3D%220%200%2017%2013%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%20%20%3Cpath%20d%3D%22M6.50002%2012.6L0.400024%206.60002L2.60002%204.40002L6.50002%208.40002L13.9%200.900024L16.1%203.10002L6.50002%2012.6Z%22%20fill%3D%22%23FFFFFF%22%2F%3E%0A%20%20%20%20%3C%2Fsvg%3E%0A%20%20');,
+        backgroundColor: #D44333,
+        backgroundRepeat: no-repeat,
+        backgroundPosition: center,
+        backgroundSize: contain,
+        marginTop: 2px,
+        marginBottom: 2px,
+        marginLeft: 2px,
+        marginRight: 2px
+}"
+        role="checkbox"
+      />
+      <input
+        aria-checked={true}
+        aria-invalid={true}
+        aria-required={null}
+        checked={true}
+        className="{
+        opacity: 0,
+        width: 0,
+        height: 0,
+        overflow: hidden,
+        margin: 0,
+        padding: 0,
+        position: absolute
+}"
+        disabled={false}
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        type="checkbox"
+      />
+      <div
+        className="{
+        flex: null,
+        verticalAlign: middle,
+        paddingLeft: 8px,
+        color: #000000,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 24px
+}"
+      >
+        Error Checked
+      </div>
+    </label>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Child Props 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        width: 100%,
+        color: #000000,
+        display: block,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+      data-baseweb="form-control-label"
+      htmlFor="6"
+    >
+      Label
+    </label>
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #AFAFAF,
+        borderColor: #F6F6F6,
+        backgroundColor: #F6F6F6
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby={null}
+            aria-errormessage={null}
+            aria-invalid={true}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: not-allowed,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #AFAFAF
+        }
+}"
+            disabled={true}
+            id="6"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        width: 100%,
+        color: #545454,
+        display: block,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+      data-baseweb="form-control-label"
+      htmlFor="2"
+    >
+      Label
+    </label>
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #AFAFAF,
+        borderColor: #F6F6F6,
+        backgroundColor: #F6F6F6
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-2"
+            aria-errormessage={null}
+            aria-invalid={false}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: not-allowed,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #AFAFAF
+        }
+}"
+            disabled={true}
+            id="2"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-2"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Error 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        width: 100%,
+        color: #000000,
+        display: block,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+      data-baseweb="form-control-label"
+      htmlFor="3"
+    >
+      Label
+    </label>
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #ECACA5,
+        backgroundColor: #FBEFEE
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-3"
+            aria-errormessage="bui-3"
+            aria-invalid={true}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+            disabled={false}
+            id="3"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #D44333,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-3"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Error Without Label 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #ECACA5,
+        backgroundColor: #FBEFEE
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-5"
+            aria-errormessage="bui-5"
+            aria-invalid={true}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+            disabled={false}
+            id="5"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #D44333,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-5"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control No Label 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-4"
+            aria-errormessage={null}
+            aria-invalid={false}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+            disabled={false}
+            id="4"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-4"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Positive Input 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        width: 100%,
+        color: #000000,
+        display: block,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+      data-baseweb="form-control-label"
+      htmlFor="7"
+    >
+      Label
+    </label>
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #AFAFAF,
+        borderColor: #F6F6F6,
+        backgroundColor: #F6F6F6
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-7"
+            aria-errormessage={null}
+            aria-invalid={false}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: not-allowed,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #AFAFAF
+        }
+}"
+            disabled={true}
+            id="7"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #21A453,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-7"
+      />
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Form Control Standard 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <label
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        width: 100%,
+        color: #000000,
+        display: block,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+      data-baseweb="form-control-label"
+      htmlFor="1"
+    >
+      Label
+    </label>
+    <div
+      className="{
+        width: 100%,
+        marginBottom: 16px
+}"
+      data-baseweb="form-control-container"
+    >
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+        data-baseweb="input"
+      >
+        <div
+          className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+          data-baseweb="base-input"
+        >
+          <input
+            aria-describedby="bui-1"
+            aria-errormessage={null}
+            aria-invalid={false}
+            aria-label={null}
+            aria-labelledby={null}
+            aria-required={false}
+            autoComplete="on"
+            className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+            disabled={false}
+            id="1"
+            inputMode="text"
+            name=""
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyPress={[Function]}
+            onKeyUp={[Function]}
+            pattern={null}
+            placeholder=""
+            required={false}
+            rows={null}
+            type="text"
+          />
+        </div>
+      </div>
+      <div
+        className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 12px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        paddingTop: 0,
+        paddingRight: 0,
+        paddingBottom: 0,
+        paddingLeft: 0,
+        marginTop: 8px,
+        marginRight: 0,
+        marginBottom: 8px,
+        marginLeft: 0
+}"
+        data-baseweb="form-control-caption"
+        id="bui-1"
+      >
+        Caption
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Disabled 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #AFAFAF,
+        borderColor: #F6F6F6,
+        backgroundColor: #F6F6F6
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="on"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: not-allowed,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #545454,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #AFAFAF
+        }
+}"
+          disabled={true}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          pattern={null}
+          placeholder=""
+          required={false}
+          rows={null}
+          type="text"
+          value="Value"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Error 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #ECACA5,
+        backgroundColor: #FBEFEE
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={true}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="on"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+          disabled={false}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          pattern={null}
+          placeholder="Placeholder..."
+          required={false}
+          rows={null}
+          type="text"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Mask Input 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 16px,
+        fontWeight: normal,
+        lineHeight: 24px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 16px,
+        fontWeight: normal,
+        lineHeight: 24px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="on"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 14px,
+        paddingRight: 14px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 16px,
+        fontWeight: normal,
+        lineHeight: 24px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+          disabled={false}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onPaste={[Function]}
+          pattern={null}
+          placeholder="Phone number"
+          required={false}
+          rows={null}
+          type="text"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Max Length 100 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="on"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+          disabled={false}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          pattern={null}
+          placeholder=""
+          required={false}
+          rows={null}
+          type="text"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Password Input 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="new-password"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+          disabled={false}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          pattern={null}
+          placeholder=""
+          required={false}
+          rows={null}
+          type="password"
+        />
+        <button
+          aria-label="Show password text"
+          className="{
+        display: inline-flex,
+        flexDirection: row,
+        alignItems: center,
+        justifyContent: center,
+        borderLeftWidth: 0,
+        borderTopWidth: 0,
+        borderRightWidth: 0,
+        borderBottomWidth: 0,
+        borderLeftStyle: none,
+        borderTopStyle: none,
+        borderRightStyle: none,
+        borderBottomStyle: none,
+        outline: none,
+        outlineOffset: -3px,
+        boxShadow: none,
+        textDecoration: none,
+        WebkitAppearance: none,
+        transitionProperty: background,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        cursor: pointer,
+        :disabled: {
+                cursor: not-allowed,
+                backgroundColor: #F6F6F6,
+                color: #AFAFAF
+        },
+        marginLeft: 0,
+        marginTop: 0,
+        marginRight: 0,
+        marginBottom: 0,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: 500,
+        lineHeight: 16px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        paddingTop: 10px,
+        paddingBottom: 10px,
+        paddingLeft: 12px,
+        paddingRight: 12px,
+        color: #000000,
+        backgroundColor: transparent,
+        :hover: {
+                backgroundColor: #F6F6F6
+        },
+        :active: {
+                backgroundColor: #EEEEEE
+        }
+}"
+          data-baseweb="button"
+          disabled={false}
+          onBlur={[Function]}
+          onClick={[Function]}
+          onFocus={[Function]}
+          title="Show password text"
+          type="button"
+        >
+          <svg
+            className="{
+        display: inline-block,
+        fill: currentColor,
+        color: currentColor,
+        height: 16px,
+        width: 16px
+}"
+            data-baseweb="icon"
+            viewBox="0 0 20 20"
+          >
+            <title>
+              Show password text
+            </title>
+            <path
+              d="M.2 10a11 11 0 0119.6 0A11 11 0 01.2 10zm9.8 4a4 4 0 100-8 4 4 0 000 8zm0-2a2 2 0 110-4 2 2 0 010 4z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input Standard 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+      data-baseweb="input"
+    >
+      <div
+        className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+        data-baseweb="base-input"
+      >
+        <input
+          aria-describedby={null}
+          aria-errormessage={null}
+          aria-invalid={false}
+          aria-label={null}
+          aria-labelledby={null}
+          aria-required={false}
+          autoComplete="on"
+          className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+          disabled={false}
+          inputMode="text"
+          name=""
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyPress={[Function]}
+          onKeyUp={[Function]}
+          pattern={null}
+          placeholder="Placeholder..."
+          required={false}
+          rows={null}
+          type="text"
+        />
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
+
+exports[`Storyshots Design System|Input With Icon 1`] = `
+Array [
+  <div
+    className="{}"
+  >
+    <div
+      className="{
+        display: flex,
+        flexWrap: wrap,
+        justifyContent: center,
+        alignItems: center,
+        padding: 24px,
+        width: 95%
+}"
+    >
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <div
+          className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+          data-baseweb="input"
+        >
+          <div
+            className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+            data-baseweb="base-input"
+          >
+            <input
+              aria-describedby={null}
+              aria-errormessage={null}
+              aria-invalid={false}
+              aria-label={null}
+              aria-labelledby={null}
+              aria-required={false}
+              autoComplete="on"
+              className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+              disabled={false}
+              inputMode="text"
+              name=""
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              pattern={null}
+              placeholder="Placeholder..."
+              required={false}
+              rows={null}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        className="{
+        marginRight: 16px
+}"
+      >
+        <div
+          className="{
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        display: flex,
+        width: 100%
+}"
+          data-baseweb="input"
+        >
+          <div
+            className="{
+        boxSizing: border-box,
+        display: flex,
+        width: 100%,
+        borderWidth: 2px,
+        borderStyle: solid,
+        transitionProperty: border, background-color,
+        transitionDuration: 0.25s,
+        transitionTimingFunction: cubic-bezier(.2, .8, .4, 1),
+        borderTopLeftRadius: 0px,
+        borderBottomLeftRadius: 0px,
+        borderTopRightRadius: 0px,
+        borderBottomRightRadius: 0px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        borderColor: #EEEEEE,
+        backgroundColor: #EEEEEE
+}"
+            data-baseweb="base-input"
+          >
+            <input
+              aria-describedby={null}
+              aria-errormessage={null}
+              aria-invalid={false}
+              aria-label={null}
+              aria-labelledby={null}
+              aria-required={false}
+              autoComplete="on"
+              className="{
+        boxSizing: border-box,
+        backgroundColor: transparent,
+        borderWidth: 0,
+        borderStyle: none,
+        outline: none,
+        width: 100%,
+        maxWidth: 100%,
+        cursor: text,
+        margin: 0,
+        paddingTop: 6px,
+        paddingBottom: 6px,
+        paddingLeft: 10px,
+        paddingRight: 10px,
+        fontFamily: system-ui, Helvetica Neue, Helvetica, Arial, sans-serif,
+        fontSize: 14px,
+        fontWeight: normal,
+        lineHeight: 20px,
+        color: #000000,
+        caretColor: #000000,
+        ::placeholder: {
+                color: #545454
+        }
+}"
+              disabled={false}
+              inputMode="text"
+              name=""
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              onKeyDown={[Function]}
+              onKeyPress={[Function]}
+              onKeyUp={[Function]}
+              pattern={null}
+              placeholder="Placeholder..."
+              required={false}
+              rows={null}
+              type="text"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>,
+  <div
+    className="{}"
+  />,
+]
+`;
