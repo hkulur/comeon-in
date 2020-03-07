@@ -74,7 +74,7 @@ const Details = () => {
                 <MaskedInput
                   id="countrycode"
                   name="countrycode"
-                  mask="+99"
+                  mask="+999"
                   value={values.countrycode}
                   size={SIZE.compact}
                   onChange={handleChange}
@@ -91,7 +91,7 @@ const Details = () => {
                 <MaskedInput
                   id="phonenumber"
                   name="phonenumber"
-                  mask="9999999"
+                  mask="999999999"
                   value={values.phonenumber}
                   size={SIZE.compact}
                   onChange={handleChange}

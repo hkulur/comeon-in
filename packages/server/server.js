@@ -58,12 +58,21 @@ const authenticate = (req, res, signup) => {
   const username = req.body.username;
   const password = req.body.password;
   const player = players.find(player => player.username === username);
-  if (player && player.password === password) {
+
+  if (player && player.password === password && !signup) {
     const response = { ...player };
     delete response.password;
     res.status(200).json({
       status: "SUCCESS",
       response
+    });
+  } else if (player && signup) {
+    res.status(400).json({
+      status: "FAILURE",
+      response: {
+        errorKey: "PLAYER_EXISTS",
+        errorDescription: "Already have account. Please login"
+      }
     });
   } else if (!player && signup) {
     const newPlayer = {
@@ -122,7 +131,7 @@ const updatePlayer = (req, res) => {
     const overrides = playerAttributes(req)
     newPlayer = {...newPlayer, ...overrides}
     players[playerIndex] = newPlayer;
-    const response = newPlayer;
+    const response = {...newPlayer};
     delete response.password;
     res.status(200).json({
       status: "SUCCESS",

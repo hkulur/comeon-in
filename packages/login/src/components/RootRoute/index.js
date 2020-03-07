@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import { routeResolver, PUBLIC_ROUTES, LOGIN_ROUTE } from 'helpers'
+import { routeResolver } from 'helpers'
 import { useSelector, useDispatch } from 'react-redux'
 import { push } from 'connected-react-router'
 import routes from 'routes'
@@ -14,17 +14,12 @@ const RootRoute = () => {
   const router = useSelector(state => state.router)
   const dispatch = useDispatch()
 
+  const pathname = router && router.location.pathname
   useEffect(() => {
-    const currentRoute = routeResolver(user)
+    const currentRoute = routeResolver({ user, pathname })
 
     if (currentRoute) {
       dispatch(push(currentRoute))
-    } else {
-      const pathname = router && router.location.pathname
-      
-      if (PUBLIC_ROUTES.indexOf(pathname) === -1) {
-        dispatch(push(LOGIN_ROUTE))
-      }
     }
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user])

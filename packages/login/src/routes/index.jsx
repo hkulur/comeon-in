@@ -1,7 +1,7 @@
 import React, { Suspense } from 'react'
-import { Route, Switch } from 'react-router'
+import { Route, Switch } from 'react-router-dom'
 import PageLoader from 'components/PageLoader'
-import { Login, Registration } from 'components/PublicRoutes'
+import { Login, Registration, NoMatch } from 'components/PublicRoutes'
 import { Details, Terms, Welcome } from 'components/PrivateRoutes'
 import {
   WELCOME_ROUTE,
@@ -20,6 +20,7 @@ const routes = (
         <Route path={REGISTRATION_ROUTE} component={Registration} />
         <Route path={DETAILS_ROUTE} component={Details} />
         <Route path={TERMS_ROUTE} component={Terms} />
+        <Route path='*' component={NoMatch} />
       </Switch>
     </Suspense>
   </div>

@@ -12,8 +12,8 @@ const Welcome = () => {
       <CenterContent>
         <Header>
           <WelcomeIcon size={64} />
-          <H4>Hello {user.username}, welcome back!!</H4>
-          <Paragraph3 marginTop='scale400' color='contentTertiary'>It is nice to see you again.</Paragraph3>
+          <H4>Hello {user.username}, welcome!!</H4>
+          <Paragraph3 marginTop='scale400' color='contentTertiary'>It is nice to see you.</Paragraph3>
           
           <Paragraph3 marginTop='scale800'>Current Balance</Paragraph3>
           <Label1>100Kr</Label1>

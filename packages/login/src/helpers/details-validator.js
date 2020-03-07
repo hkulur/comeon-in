@@ -2,19 +2,27 @@ const emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+")
 
 const detailsValidate = (values) => {
   const errors = {}
-  if (!values.email) {
+  let { email, countrycode, phonenumber } = values
+
+  email = email && email.trim()
+  countrycode = countrycode && countrycode.replace(/\D/g,'').trim()
+  phonenumber = phonenumber && phonenumber.trim()
+
+  if (!email) {
     errors.email = 'Mandatory'
-  } else if (!emailRegex.test(values.email)) {
+  } else if (!emailRegex.test(email)) {
     errors.email = 'Invalid email'
   }
 
-  if (!values.countrycode) {
+  if (!countrycode) {
     errors.countrycode = 'Mandatory'
+  } else if (!/^[0-9]{2,3}$/g.test(countrycode)) {
+    errors.countrycode = 'Invalid Code'
   }
 
-  if (!values.phonenumber || !values.phonenumber.trim()) {
+  if (!phonenumber) {
     errors.phonenumber = 'Mandatory'
-  } else if (!/^[0-9]{7,10}$/g.test(values.phonenumber)) {
+  } else if (!/^[0-9]{7,9}$/g.test(phonenumber)) {
     errors.phonenumber = 'Invalid Number'
   }
 
